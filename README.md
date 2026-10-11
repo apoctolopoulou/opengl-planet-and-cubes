@@ -27,4 +27,10 @@ Tested on Windows 11 with Visual Studio 2026 (C++20).
 2. Select the **x64** platform (Debug or Release).
 3. Press **F5**. The GLEW, GLFW and GLM libraries are restored automatically through NuGet.
 
-## What I Learned
+## Licenses and Third-Party Materials
+The source code in this repository is licensed under the MIT License (see `LICENSE`).
+The following files are not my work and are not covered by that license:
+- `planet/planet.obj`: 3D model provided by the course.
+- `texture/container.jpg`: texture provided by the course.
+- `include/stb_image.h`: [stb_image](https://github.com/nothings/stb) by Sean Barrett, public domain / MIT (see the license notice inside the file).
+- GLEW, GLFW and GLM are downloaded through NuGet and keep their own licenses.
